@@ -20,3 +20,15 @@
 // };
   
 // console.log(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]));
+
+//Q3 Seek and Destroy
+
+// function destroyer(arr) {
+//     var newArr = [];
+//     for (var i = 1; i < arguments.length; i++) {
+//       newArr.push(arguments[i])
+//     }
+//     return arr.filter(item => !newArr.includes(item))
+//   }
+  
+//   console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
