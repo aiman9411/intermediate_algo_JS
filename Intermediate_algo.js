@@ -1,4 +1,4 @@
-//Sum All Numbers In A Range
+//Q1 Sum All Numbers In A Range
 
 // function sumAll(arr) {
 //     var maxNumber = Math.max(arr[0], arr[1]);
