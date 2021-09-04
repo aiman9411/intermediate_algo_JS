@@ -48,3 +48,13 @@
 // }
   
 //   console.log(whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" }));
+
+//Q5 Spinal Tap Case
+
+// function spinalCase(str) {
+//     var regEx = /\s|_/g;
+//     str = str.replace(/([a-z])([A-Z])/g, "$1 $2")
+//     return str.replace(regEx, "-").toLowerCase();
+// }
+  
+// console.log(spinalCase('This Is Spinal Tap'));
