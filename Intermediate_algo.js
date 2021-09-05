@@ -58,3 +58,20 @@
 // }
   
 // console.log(spinalCase('This Is Spinal Tap'));
+
+//Q6 Pig Latin
+
+// function translatePigLatin(str) {
+//     var regex = /[aeiou]/g
+//     if(str[0].match(regex)) {
+//         return str + "way";
+//     } else if(str.match(regex) === null) {
+//         return str + "ay"
+//     } else {
+//         var vowelList = str.match(regex);
+//         var indexVowel = str.indexOf(vowelList[0]);
+//         return str.slice(indexVowel) + str.slice(0, indexVowel) + "ay";
+//     }
+// }
+
+// console.log(translatePigLatin("glove"));
