@@ -88,3 +88,28 @@
 // }
 
 // console.log(myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));
+
+//Q8 DNA Pairing
+
+// function pairElement(str) {
+//     var newArray = [];
+//     for(var i = 0; i < str.length; i++) {
+//         switch(str[i]) {
+//             case "A":
+//                 newArray.push(['A', 'T']);
+//             break;
+//             case "T":
+//                 newArray.push(['T', 'A']);
+//             break;
+//             case "G":
+//                 newArray.push(['G', 'C']);
+//             break;
+//             case "C":
+//                 newArray.push(['C', 'G']);
+//             break;
+//         }
+//     }
+//     return newArray;
+// }
+  
+// console.log(pairElement("GCG"));
