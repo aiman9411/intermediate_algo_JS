@@ -113,3 +113,16 @@
 // }
   
 // console.log(pairElement("GCG"));
+
+//Q9 Missing Letters
+
+// function fearNotLetter(str) {
+//     for(var i = 0; i < str.length; i++) {
+//         if(str.charCodeAt(i + 1) - str.charCodeAt(i) !== 1 && str.length < 26) {
+//             return String.fromCharCode(str.charCodeAt(i) + 1);
+//         }
+//     }
+//     return undefined;
+// }
+  
+// console.log(fearNotLetter("abde"));
