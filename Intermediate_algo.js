@@ -143,3 +143,30 @@
 //   }
 
 // console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
+
+// Q11 Convert HTML Entities
+
+// function convertHTML(str) {
+//     for(var i = 0; i < str.length; i++) {
+//         switch (str[i]) {
+//             case '&':
+//                 str = str.replace("&", "&amp;");
+//             break;
+//             case "<":
+//                 str = str.replace("<", "&lt;");
+//             break;
+//             case ">":
+//                 str = str.replace(">", "&gt;");
+//             break;
+//             case '"':
+//                 str = str.replace('"', "&quot;");
+//             break;
+//             case "'":
+//                 str = str.replace("'", "&apos;");
+//             break;
+//         }
+//     }
+//     return str;
+// }
+  
+// console.log(convertHTML("Dolce & Gabbana"));
