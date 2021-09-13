@@ -170,3 +170,21 @@
 // }
   
 // console.log(convertHTML("Dolce & Gabbana"));
+
+//Q12 Sum Fibo Number
+
+// function sumFibs(num) {
+//     var previousNumber = 0;
+//     var currentNumber = 1;
+//     var result = 0;
+//     while(currentNumber <= num) {
+//         if(currentNumber%2 !== 0) {
+//             result += currentNumber;
+//         }
+//         currentNumber += previousNumber;
+//         previousNumber = currentNumber - previousNumber;
+//     }
+//     return result;
+// }
+  
+// console.log(sumFibs(4));
