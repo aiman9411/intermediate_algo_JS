@@ -247,3 +247,19 @@
 //     }
 //     return arr;
 //   }
+
+// Q16 Steam Roller
+
+// function steamrollArray(arr) {
+//     var newArrray = [];
+//     for(var i = 0; i < arr.length; i++) {
+//         if(Array.isArray(arr[i])) {
+//             newArrray.push(...steamrollArray(arr[i]));
+//         } else {
+//             newArrray.push(arr[i]);
+//         }
+//     }
+//     return newArrray;
+// }
+  
+// console.log(steamrollArray([1, [2], [3, [[4]]]]));
